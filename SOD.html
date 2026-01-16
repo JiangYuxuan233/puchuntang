@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SOD 科学解密 | 普春堂</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root { --emerald-900: #064e3b; --emerald-800: #065f46; --emerald-700: #047857; }
+    body { font-family: 'Inter', 'Noto Serif SC', serif; scroll-behavior: smooth; background-color: #fcfdfc; text-align: left; }
+    .serif { font-family: 'Noto Serif SC', serif; }
+    .floating-card { backdrop-filter: blur(10px); background: rgba(255, 255, 255, 0.9); transition: all 0.3s ease; }
+    .floating-card:hover { transform: translateX(-5px); }
+    .benefit-card { transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); cursor: pointer; height: 100%; }
+    .benefit-card:hover {
+      background-color: var(--emerald-900) !important;
+      transform: translateY(-10px);
+      box-shadow: 0 25px 50px -12px rgba(6, 78, 59, 0.3);
+    }
+    .benefit-card:hover h5, .benefit-card:hover p, .benefit-card:hover .icon-tag { color: white !important; }
+    .bg-deco-line { position: absolute; left: 0; top: 15%; width: 4px; height: 400px; background: linear-gradient(to bottom, var(--emerald-800), transparent); }
+  </style>
+</head>
+<body class="text-slate-900">
+
+  <header class="sticky top-0 z-50 bg-white/80 backdrop-blur border-b border-slate-100">
+    <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+      <a href="index.html" class="serif text-2xl font-bold text-emerald-900 tracking-tighter flex items-center gap-2">
+        <span class="w-8 h-8 bg-emerald-900 rounded-full flex items-center justify-center text-white text-xs">P</span>
+        普春堂
+      </a>
+      <nav class="flex gap-8 text-[11px] font-bold uppercase tracking-widest text-slate-400">
+          <a href="index.html" class="hover:text-emerald-900 transition">首页 Home</a>
+          <a href="sod.html" class="text-emerald-900 border-b-2 border-emerald-900 pb-1">科学 Science</a>
+          <a href="baihuaju.html" class="hover:text-emerald-900 transition">植物 Plant</a>
+          <a href="product.html" class="hover:text-emerald-900 transition">产品 Product</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="fixed right-6 top-1/3 z-50 w-48 floating-card p-5 rounded-[2rem] shadow-2xl border border-emerald-50 hidden lg:block">
+    <div class="text-[9px] font-black tracking-widest text-emerald-800 uppercase mb-3 text-center">Explore Product</div>
+    <div class="h-24 bg-emerald-50 rounded-2xl mb-4 overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1550505393-5c4711395172?auto=format&fit=crop&q=80&w=400" class="w-full h-full object-cover">
+    </div>
+    <p class="text-[11px] font-bold text-slate-800 text-center">寒地百花菊精华液<br><span class="text-[9px] font-normal text-emerald-600">90℃ 活性直达</span></p>
+    <a href="product.html" class="mt-4 block bg-emerald-900 text-white text-center py-2.5 rounded-full text-[10px] font-bold hover:bg-emerald-800 transition">了解产品方案</a>
+  </div>
+
+  <main class="max-w-6xl mx-auto px-6 py-16 relative">
+    <div class="bg-deco-line"></div>
+
+    <section class="mb-32">
+        <div class="inline-block px-3 py-1 bg-red-50 text-red-700 text-[10px] font-bold mb-6 rounded uppercase">Part 01 / The Crisis</div>
+        <h1 class="serif text-5xl lg:text-6xl font-bold leading-tight mb-12">自由基：<br/>隐藏在代谢背后的“铁锈”</h1>
+        <div class="grid lg:grid-cols-2 gap-16">
+            <div class="space-y-8 text-slate-600 leading-loose text-lg">
+                <p>想象一下，如果把身体比作一台精密的机器，那么<b>“自由基（Free Radicals）”</b>就是伴随机器运转产生的“碎屑”和“铁锈”。从科学角度看，自由基是带有一个或多个不配对电子的分子碎片，它们极度不稳定，会疯狂地从健康细胞（如DNA、蛋白质、脂肪）中抢夺电子。</p>
+                <p>这种掠夺过程被称为<b>“氧化应激”</b>。在现代生活中，厨房油烟、电离辐射、熬夜压力、甚至是不健康的饮食，都会在体内加速产生自由基。当自由基数量超过身体的清理能力时，细胞膜就会受到损伤，这就是衰老与许多健康问题的起点。</p>
+            </div>
+            <div class="rounded-[3rem] overflow-hidden shadow-2xl"><img src="https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&q=80&w=800"></div>
+        </div>
+    </section>
+
+    <section class="mb-32">
+        <div class="inline-block px-3 py-1 bg-emerald-50 text-emerald-800 text-[10px] font-bold mb-6 rounded uppercase">Part 02 / The Defense</div>
+        <h2 class="serif text-4xl font-bold mb-8 text-emerald-950">SOD 到底是什么？</h2>
+        <div class="grid lg:grid-cols-2 gap-16 items-center">
+            <div class="rounded-[3rem] overflow-hidden shadow-xl order-2 lg:order-1"><img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=800"></div>
+            <div class="space-y-6 text-slate-600 text-lg order-1 lg:order-2">
+                <p><b>它其实是你体内的“原生防护英雄”：</b><br>SOD（超氧化物歧化酶）是目前科学发现的唯一能以自由基为底物的催化酶。它不是外来化学合成物，而是人体本身就含有的活性物质，专门负责清理自由基。</p>
+                <p><b>为什么它来自寒地百花菊？</b><br>百花菊生长在黑龙江 -30℃ 的极寒黑土地。为了在极端环境中存活，这种植物在叶片里囤积了极高浓度的 SOD。经过<b>宋娜老师团队 30 年</b>的科研攻关，这种大自然练就的生命精华，终于能以高活性形式被我们所用。</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="mb-32 py-24 bg-slate-50 rounded-[4rem] px-12 relative overflow-hidden">
+        <h2 class="serif text-4xl font-bold mb-10 text-emerald-900">为什么只有 SOD 能真正解决它？</h2>
+        <div class="space-y-12 max-w-4xl">
+            <div class="flex gap-8 items-start">
+                <div class="w-12 h-12 rounded-full bg-emerald-900 text-white flex-shrink-0 flex items-center justify-center font-bold">1</div>
+                <div>
+                    <h4 class="font-bold text-xl mb-4 text-emerald-950">高效的“歧化反应”机制</h4>
+                    <p class="text-slate-500 leading-relaxed text-lg">SOD是目前科学发现的唯一能以自由基为底物的催化酶。它的清理逻辑不是“一换一”的牺牲。通过<b>“歧化反应（Dismutation）”</b>，一个SOD分子可以像永动机一样，每秒将数以万计的活性氧自由基转化为水和氧气，这种效率是普通抗氧化剂（如维生素C）的数千倍。</p>
+                </div>
+            </div>
+            <div class="flex gap-8 items-start">
+                <div class="w-12 h-12 rounded-full bg-emerald-900 text-white flex-shrink-0 flex items-center justify-center font-bold">2</div>
+                <div>
+                    <h4 class="font-bold text-xl mb-4 text-emerald-950">天然的“人体垃圾清道夫”</h4>
+                    <p class="text-slate-500 leading-relaxed text-lg">SOD被医学界称为<b>“人体垃圾的清道夫”</b>。它能有效清除体内多余的自由基，使生理细胞不易被破坏并得到修复，从而让衰老的过程大幅放慢。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mb-32">
+        <div class="mb-16">
+            <h2 class="serif text-4xl font-bold text-emerald-950 block mb-2">生命源动力：</h2>
+            <h2 class="serif text-4xl italic text-emerald-600 block">当身体拥有了足够的 SOD</h2>
+        </div>
+        
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="benefit-card p-10 bg-white border border-slate-100 rounded-[3.5rem] shadow-sm">
+                <span class="icon-tag text-3xl mb-6 block text-emerald-700">✨</span>
+                <h5 class="font-bold text-xl mb-4">逆时修复：抗衰与美颜</h5>
+                <p class="text-sm text-slate-500 leading-loose">SOD能抑制导致皮肤变黑的黑色素氧化，对祛斑、美白具有奇效。它保护胶原蛋白不被自由基攻击，从底层维持皮肤弹性，让“外在”呈现自然的年轻态。</p>
+            </div>
+            <div class="benefit-card p-10 bg-white border border-slate-100 rounded-[3.5rem] shadow-sm">
+                <span class="icon-tag text-3xl mb-6 block text-emerald-700">🛡️</span>
+                <h5 class="font-bold text-xl mb-4">内源平衡：慢病辅助调理</h5>
+                <p class="text-sm text-slate-500 leading-loose">通过改善微循环和清除致炎物质，SOD在防治肿瘤、高血压、糖尿病、风湿及心脑血管疾病方面展现出显著的辅助功效。它是身体内部隐形的“防火墙”。</p>
+            </div>
+            <div class="benefit-card p-10 bg-white border border-slate-100 rounded-[3.5rem] shadow-sm">
+                <span class="icon-tag text-3xl mb-6 block text-emerald-700">☘️</span>
+                <h5 class="font-bold text-xl mb-4">生命防火墙：抗辐射与免疫</h5>
+                <p class="text-sm text-slate-500 leading-loose">针对现代人的电子辐射伤害，百花菊SOD具有吸收紫外线、抗辐射的独特天赋。它能降低耗氧量、抗疲劳，全面增强人体免疫系统的战斗力。</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="mb-32 bg-emerald-50 p-12 rounded-[4rem] text-center max-w-4xl mx-auto">
+        <h4 class="serif text-2xl font-bold mb-6 italic text-emerald-950 text-balance">“我们不追求永生，但我们追求体面地老去。”</h4>
+        <p class="text-slate-600 leading-loose text-lg">摄入足够的百花菊SOD，不是为了让你的器官停止运作，而是让你的衰老过程放慢脚步。这种源自黑土地极端环境下的生命意志，最终会转化为守护您身体的坚固铠甲。</p>
+    </div>
+
+    <section class="max-w-3xl mb-24">
+        <h2 class="serif text-3xl font-bold mb-12 text-emerald-950">关于 SOD 的疑问解答</h2>
+        <div class="space-y-4">
+            <details class="group bg-white p-6 rounded-3xl border border-slate-100 shadow-sm" open>
+                <summary class="flex justify-between items-center font-bold cursor-pointer list-none text-emerald-900">
+                    为什么普通蔬菜里的 SOD 很难起效？
+                    <span class="group-open:rotate-180 transition">↓</span>
+                </summary>
+                <p class="mt-4 text-sm text-slate-500 leading-loose">普通的 SOD 极度怕热且易受胃酸破坏。寒地百花菊萃取的 SOD 具备独特的抗逆性，在 90℃ 高温环境下 120 分钟活性无损，保证了其能真正被人体利用。</p>
+            </details>
+        </div>
+    </section>
+  </main>
+
+  <footer class="bg-slate-50 py-12 border-t border-slate-200 text-center">
+    <div class="max-w-7xl mx-auto px-6 text-[10px] text-slate-400 uppercase tracking-widest">© 2024 普春堂 | 宋娜老师团队 30 年科研成果</div>
+  </footer>
+</body>
+</html>
